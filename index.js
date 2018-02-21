@@ -24,11 +24,11 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese(foods) {
-  var ched = foods.find(function(element){
+  var cheFound = foods.find(function(element){
     return element === "cheddar" || element === "gouda" || element === "camembert"
   });
-  if ((ched === "cheddar") || (ched === "gouda") || (ched === "camembert")) {
-    return ched;
+  if ((cheFound === "cheddar") || (cheFound === "gouda") || (cheFound === "camembert")) {
+    return cheFound;
   } else {
     return "no cheese!";
   }
